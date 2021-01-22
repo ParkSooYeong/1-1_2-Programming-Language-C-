@@ -1,23 +1,23 @@
 /* SKU CoE ITE - ParkSooYoung */
 /* Grade 1 , Semester 1 , Chapter 2 , Number 2 */
 
-// ¿øÀÇ ¸éÀûÀ» °è»êÇÏ´Â ÇÁ·Î±×·¥
+// ì›ì˜ ë©´ì ì„ ê³„ì‚°í•˜ëŠ” í”„ë¡œê·¸ë¨
 
-#define _CRT_SECURE_NO_WARNINGS // Warining C4996 Error
+#define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
-#include <stdio.h> // Çì´õ ÆÄÀÏ Æ÷ÇÔ
+#include <stdio.h> // í—¤ë” íŒŒì¼ í¬í•¨
 
-int main(void) // ÇÔ¼öÀÇ ½ÃÀÛ
+int main(void) // í•¨ìˆ˜ì˜ ì‹œì‘
 {
-	float radius; // ¿øÀÇ ¹İÁö¸§
-	float area; // ¸éÀû
+	float radius; // ì›ì˜ ë°˜ì§€ë¦„
+	float area; // ë©´ì 
 
-	printf("¿øÀÇ ¹İÁö¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä. : "); // ÀÔ·Â ¾È³» ¸Ş½ÃÁö Ãâ·Â
-	scanf("%f", &radius); // ÇÏ³ªÀÇ ½Ç¼ö¸¦ ¹Ş¾Æ¼­ radius¿¡ ÀúÀå
+	printf("ì›ì˜ ë°˜ì§€ë¦„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”. : "); // ì…ë ¥ ì•ˆë‚´ ë©”ì‹œì§€ ì¶œë ¥
+	scanf("%f", &radius); // í•˜ë‚˜ì˜ ì‹¤ìˆ˜ë¥¼ ë°›ì•„ì„œ radiusì— ì €ì¥
 
-	area = 3.14 * radius * radius; // ¿øÀÇ ¸éÀû °è»ê
+	area = 3.14 * radius * radius; // ì›ì˜ ë©´ì  ê³„ì‚°
 
-	printf("¿øÀÇ ¸éÀû : %f\n", area); // areaÀÇ °ªÀ» ½Ç¼ö ÇüÅÂ·Î Ãâ·Â
+	printf("ì›ì˜ ë©´ì  : %f\n", area); // areaì˜ ê°’ì„ ì‹¤ìˆ˜ í˜•íƒœë¡œ ì¶œë ¥
 
-	return 0; // 0À» ¿ÜºÎ·Î ¹İÈ¯
+	return 0; // 0ì„ ì™¸ë¶€ë¡œ ë°˜í™˜
 }
