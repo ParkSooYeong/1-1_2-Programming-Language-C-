@@ -3,9 +3,9 @@
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
-#include <stdio.h> // Çì´õ ÆÄÀÏ Æ÷ÇÔ
+#include <stdio.h> // í—¤ë” íŒŒì¼ í¬í•¨
 
-int main(void) // ÇÔ¼öÀÇ ½ÃÀÛ
+int main(void) // í•¨ìˆ˜ì˜ ì‹œì‘
 {
 	int x = 0, nextx = 0;
 	
