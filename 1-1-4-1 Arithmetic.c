@@ -3,28 +3,28 @@
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
-#include <stdio.h> // Çì´õ ÆÄÀÏ Æ÷ÇÔ
+#include <stdio.h> // í—¤ë” íŒŒì¼ í¬í•¨
 
-int main(void) // ÇÔ¼öÀÇ ½ÃÀÛ
+int main(void) // í•¨ìˆ˜ì˜ ì‹œì‘
 {
 	int x, y, result;
 
-	printf("2°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("2ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%d %d", &x, &y);
 
-	result = x + y; // µ¡¼À ¿¬»ê
+	result = x + y; // ë§ì…ˆ ì—°ì‚°
 	printf("%d + %d = %d\n", x, y, result);
 
-	result = x - y; // »¬¼À ¿¬»ê
+	result = x - y; // ëº„ì…ˆ ì—°ì‚°
 	printf("%d - %d = %d\n", x, y, result);
 
-	result = x * y; // °ö¼À ¿¬»ê
+	result = x * y; // ê³±ì…ˆ ì—°ì‚°
 	printf("%d * %d = %d\n", x, y, result);
 
-	result = x / y; // ³ª´°¼À ¿¬»ê
+	result = x / y; // ë‚˜ëˆ—ì…ˆ ì—°ì‚°
 	printf("%d / %d = %d\n", x, y, result);
 
-	result = x % y; // ³ª¸ÓÁö ¿¬»ê
+	result = x % y; // ë‚˜ë¨¸ì§€ ì—°ì‚°
 	printf("%d %% %d = %d\n", x, y, result);
 
 	return 0;
