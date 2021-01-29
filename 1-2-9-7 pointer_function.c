@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Chapter 9 , Number 7 */
+/* Grade 1 , Semester 2 , Chapter 9 , Number 7 */
 
 #define _CRT_SECURE_NO_WARNINGS //Warning C4996 Error
 
@@ -18,14 +18,14 @@ int main(void)
 
 	for (i = 0; i < SIZE; i++)
 	{
-		printf("°ªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+		printf("Â°ÂªÃ€Â» Ã€Ã”Â·Ã‚Ã‡Ã˜ÃÃ–Â¼Â¼Â¿Ã¤. : ");
 		scanf("%d", &data[i]);
 	}
 
 	check_values(data, SIZE);
 	result = get_avg(data, SIZE);
 
-	printf("Æò±Õ = %f\n", result);
+	printf("Ã†Ã²Â±Ã• = %f\n", result);
 
 	return 0;
 }
