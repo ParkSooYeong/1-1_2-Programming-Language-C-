@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Chapter 9 , Number 2 */
+/* Grade 1 , Semester 2 , Chapter 9 , Number 2 */
 
 #define _CRT_SECURE_NO_WARNINGS //Warning C4996 Error
 
@@ -12,11 +12,11 @@ int main(void)
 
 	p = &i;
 
-	printf("i = %d\n", i); // º¯¼öÀÇ °ª Ãâ·Â
-	printf("&i = %u\n\n", &i); // º¯¼öÀÇ ÁÖ¼Ò Ãâ·Â
+	printf("i = %d\n", i); // ë³€ìˆ˜ì˜ ê°’ ì¶œë ¥
+	printf("&i = %u\n\n", &i); // ë³€ìˆ˜ì˜ ì£¼ì†Œ ì¶œë ¥
 
-	printf("p =  %u\n", p); // Æ÷ÀÎÅÍÀÇ °ª Ãâ·Â
-	printf("*p = %d\n", *p); // Æ÷ÀÎÅÍ¸¦ ÅëÇÑ °£Á¢ ÂüÁ¶ °ª Ãâ·Â
+	printf("p =  %u\n", p); // í¬ì¸í„°ì˜ ê°’ ì¶œë ¥
+	printf("*p = %d\n", *p); // í¬ì¸í„°ë¥¼ í†µí•œ ê°„ì ‘ ì°¸ì¡° ê°’ ì¶œë ¥
 
 	printf("\n");
 
