@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Chapter 9 , Number 5 */
+/* Grade 1 , Semester 2 , Chapter 9 , Number 5 */
 
 #define _CRT_SECURE_NO_WARNINGS //Warning C4996 Error
 
@@ -12,19 +12,19 @@ int main(void)
 {
 	int a = 100, b = 200;
 
-	printf("swap() È£Ãâ Àü : a = %d, b = %d\n", a, b);
+	printf("swap() í˜¸ì¶œ ì „ : a = %d, b = %d\n", a, b);
 
 	swap(a, b);
 
-	printf("swap() È£Ãâ ÈÄ : a = %d, b = %d\n", a, b);
+	printf("swap() í˜¸ì¶œ í›„ : a = %d, b = %d\n", a, b);
 
 	printf("\n");
 
-	printf("swap() È£Ãâ Àü : a = %d, b = %d\n", a, b);
+	printf("swap() í˜¸ì¶œ ì „ : a = %d, b = %d\n", a, b);
 
 	swap_p(&a, &b);
 
-	printf("swap() È£Ãâ ÈÄ : a = %d, b = %d\n", a, b);
+	printf("swap() í˜¸ì¶œ í›„ : a = %d, b = %d\n", a, b);
 
 	return 0;
 }
