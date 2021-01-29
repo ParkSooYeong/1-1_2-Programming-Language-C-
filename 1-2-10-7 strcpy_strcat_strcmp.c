@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Chapter 10 , Number 7 */
+/* Grade 1 , Semester 2 , Chapter 10 , Number 7 */
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
@@ -22,24 +22,24 @@ int main(void)
 
 	printf("\n");
 
-	printf("Ã¹¹øÂ° ´Ü¾î¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ì²«ë²ˆì§¸ ë‹¨ì–´ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%s", s1);
-	printf("µÎ¹øÂ° ´Ü¾î¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ë‘ë²ˆì§¸ ë‹¨ì–´ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%s", s2);
 
 	result = strcmp(s1, s2);
 
 	if (result < 0)
 	{
-		printf("%s°¡ %sº¸´Ù ¿ì¼±¼øÀ§¿¡ ÀÖ½À´Ï´Ù.\n", s1, s2);
+		printf("%sê°€ %së³´ë‹¤ ìš°ì„ ìˆœìœ„ì— ìˆìŠµë‹ˆë‹¤.\n", s1, s2);
 	}
 	else if (result == 0)
 	{
-		printf("%s°¡ %s¿Í µ¿ÀÏ¼øÀ§¿¡ ÀÖ½À´Ï´Ù.\n", s1, s2);
+		printf("%sê°€ %sì™€ ë™ì¼ìˆœìœ„ì— ìˆìŠµë‹ˆë‹¤.\n", s1, s2);
 	}
 	else
 	{
-		printf("%s°¡ %sº¸´Ù ³·Àº¼øÀ§¿¡ ÀÖ½À´Ï´Ù.\n", s1, s2);
+		printf("%sê°€ %së³´ë‹¤ ë‚®ì€ìˆœìœ„ì— ìˆìŠµë‹ˆë‹¤.\n", s1, s2);
 	}
 
 	return 0;
