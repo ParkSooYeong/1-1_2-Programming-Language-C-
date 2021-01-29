@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Chapter 10 , Number 6 */
+/* Grade 1 , Semester 2 , Chapter 10 , Number 6 */
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
@@ -11,7 +11,7 @@ int main(void)
 {
 	int c;
 
-	printf("¼Ò¹®ÀÚ ¾ËÆÄºªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.(Á¾·á : Ctrl+Z)\n\n");
+	printf("ì†Œë¬¸ì ì•ŒíŒŒë²³ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.(ì¢…ë£Œ : Ctrl+Z)\n\n");
 
 	while ((c = getchar()) != EOF)
 	{
@@ -25,7 +25,7 @@ int main(void)
 
 	printf("\n");
 
-	printf("È®ÀÎÇÏ°í ½ÍÀº ¹®ÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.(Á¾·á : z)\n\n");
+	printf("í™•ì¸í•˜ê³  ì‹¶ì€ ë¬¸ìë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.(ì¢…ë£Œ : z)\n\n");
 
 	while ((c = _getch()) != 'z')
 	{
