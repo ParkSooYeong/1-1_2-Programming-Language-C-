@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Chapter 8 , Number 1 */
+/* Grade 1 , Semester 2 , Chapter 8 , Number 1 */
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
@@ -46,7 +46,7 @@ int main(void)
 
 	for (i = 0; i < SIZE; i++)
 	{
-		printf("%d¹øÂ° ¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ", i+1);
+		printf("%dë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”. : ", i+1);
 		scanf("%d", &grade[i]);
 	}
 
@@ -59,7 +59,7 @@ int main(void)
 	printf("\n");
 
 	average = sum / SIZE;
-	printf("Æò±Õ : %d\n", average);
+	printf("í‰ê·  : %d\n", average);
 
 	printf("\n");
 
@@ -96,7 +96,7 @@ int main(void)
 		}
 	}
 
-	printf("ÃÖ¼Ú°ªÀº %dÀÔ´Ï´Ù.\n", min);
+	printf("ìµœì†Ÿê°’ì€ %dìž…ë‹ˆë‹¤.\n", min);
 
 	max = grade[0];
 
@@ -108,7 +108,7 @@ int main(void)
 		}
 	}
 
-	printf("ÃÖ´ñ°ªÀº %dÀÔ´Ï´Ù.\n", max);
+	printf("ìµœëŒ“ê°’ì€ %dìž…ë‹ˆë‹¤.\n", max);
 
 	printf("\n");
 
@@ -119,7 +119,7 @@ int main(void)
 
 	while (1)
 	{
-		printf("¼ýÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.(Á¾·á = -1) : ");
+		printf("ìˆ«ìžë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”.(ì¢…ë£Œ = -1) : ");
 		scanf("%d", &sum);
 
 		if (sum < 0)
@@ -130,7 +130,7 @@ int main(void)
 		freq[sum]++;
 	}
 
-	printf("\n °ª    ºóµµ\n");
+	printf("\n ê°’    ë¹ˆë„\n");
 
 	for (i = 0; i < FREQ_SIZE; i++)
 	{
