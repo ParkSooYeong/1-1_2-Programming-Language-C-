@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Chapter 9 , Number 6 */
+/* Grade 1 , Semester 2 , Chapter 9 , Number 6 */
 
 #define _CRT_SECURE_NO_WARNINGS //Warning C4996 Error
 
@@ -30,7 +30,7 @@ int main(void)
 	}
 	else
 	{
-		printf("±â¿ï±â = %f, yÀýÆí = %f\n", s, y);
+		printf("Â±Ã¢Â¿Ã¯Â±Ã¢ = %f, yÃ€Ã½Ã†Ã­ = %f\n", s, y);
 	}
 
 	return 0;
