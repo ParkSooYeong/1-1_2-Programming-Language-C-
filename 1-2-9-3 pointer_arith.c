@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Chapter 9 , Number 3 */
+/* Grade 1 , Semester 2 , Chapter 9 , Number 3 */
 
 #define _CRT_SECURE_NO_WARNINGS //Warning C4996 Error
 
@@ -15,13 +15,13 @@ int main(void)
 	pi = (int *)10000;
 	pd = (double *)10000;
 
-	printf("Αυ°΅ ΐό pc = %d, pi = %d, pd = %d\n", pc, pi, pd);
+	printf("ΓΕ‘Β°Δ„ Ε”ΓΌ pc = %d, pi = %d, pd = %d\n", pc, pi, pd);
 
 	pc++;
 	pi++;
 	pd++;
 
-	printf("Αυ°΅ ΘΔ pc = %d, pi = %d, pd = %d\n", pc, pi, pd);
+	printf("ΓΕ‘Β°Δ„ ΔΓ„ pc = %d, pi = %d, pd = %d\n", pc, pi, pd);
 	printf("pc + 2 = %d, pi + 2 = %d, pd + 2 = %d\n", pc + 2, pi + 2, pd + 2);
 
 	printf("\n");
