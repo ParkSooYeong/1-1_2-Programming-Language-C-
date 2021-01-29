@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Chapter 8 , Number 3 */
+/* Grade 1 , Semester 2 , Chapter 8 , Number 3 */
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
@@ -12,18 +12,18 @@ int main(void)
 	int key, i;
 	int list[SIZE] = { 1,2,3,4,5,6,7,8,9 };
 
-	printf("Å½»öÇÒ °ªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.(1~9) : ");
+	printf("íƒìƒ‰í•  ê°’ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.(1~9) : ");
 	scanf("%d", &key);
 
 	for (i = 0; i < SIZE; i++)
 	{
 		if (list[i] == key)
 		{
-			printf("Å½»ö ¼º°ø ÀÎµ¦½º : %d\n", i);
+			printf("íƒìƒ‰ ì„±ê³µ ì¸ë±ìŠ¤ : %d\n", i);
 		}
 	}
 
-	printf("Å½»ö Á¾·á\n");
+	printf("íƒìƒ‰ ì¢…ë£Œ\n");
 
 	return 0;
 }
