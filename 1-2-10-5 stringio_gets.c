@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Chapter 10 , Number 5 */
+/* Grade 1 , Semester 2 , Chapter 10 , Number 5 */
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
@@ -10,14 +10,14 @@ int main(void)
 	char name[100];
 	char city[100];
 
-	printf("ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ì´ë¦„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%s", name);
-	printf("µµ½Ã¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ë„ì‹œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%s", city);
 
-	printf("ÀÌ¸§ : %s , µµ½Ã : %s\n\n", name, city);
+	printf("ì´ë¦„ : %s , ë„ì‹œ : %s\n\n", name, city);
 
-	printf("ÀÌ¸§°ú µµ½Ã¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ì´ë¦„ê³¼ ë„ì‹œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	gets(name);
 	gets(city);
 
