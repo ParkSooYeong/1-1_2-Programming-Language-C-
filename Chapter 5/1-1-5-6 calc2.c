@@ -3,14 +3,14 @@
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
-#include <stdio.h> // Çì´õ ÆÄÀÏ Æ÷ÇÔ
+#include <stdio.h> // í—¤ë” íŒŒì¼ í¬í•¨
 
-int main(void) // ÇÔ¼öÀÇ ½ÃÀÛ
+int main(void) // í•¨ìˆ˜ì˜ ì‹œì‘
 {
 	char op;
 	int x, y;
 
-	printf("¼ö½ÄÀ» ÀÔ·ÂÇÏ½Ã¿À : ");
+	printf("ìˆ˜ì‹ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
 	scanf("%d %c %d", &x, &op, &y);
 
 	switch (op)
@@ -31,7 +31,7 @@ int main(void) // ÇÔ¼öÀÇ ½ÃÀÛ
 		printf("%d %c %d = %d \n", x, op, y, x % y);
 		break;
 	default:
-		printf("Áö¿øµÇÁö ¾Ê´Â ¿¬»êÀÚÀÔ´Ï´Ù. \n");
+		printf("ì§€ì›ë˜ì§€ ì•ŠëŠ” ì—°ì‚°ìì…ë‹ˆë‹¤. \n");
 		break;
 	}
 
