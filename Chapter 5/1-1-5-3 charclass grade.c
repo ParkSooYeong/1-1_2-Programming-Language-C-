@@ -3,99 +3,99 @@
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
-#include <stdio.h> // Çì´õ ÆÄÀÏ Æ÷ÇÔ
+#include <stdio.h> // í—¤ë” íŒŒì¼ í¬í•¨
 
-int main(void) // ÇÔ¼öÀÇ ½ÃÀÛ
+int main(void) // í•¨ìˆ˜ì˜ ì‹œì‘
 {
 	char ch[3];
 	int score;
 
-	printf("ÇĞÁ¡À» ÀÔ·ÂÇØÁÖ¼¼¿ä.(A+ ~ F) : ");
+	printf("í•™ì ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.(A+ ~ F) : ");
 	scanf("%s", ch);
 
 	if (ch[0] == 'A' && (ch[1] == '+' || ch[1] == '0' || ch[1] == '-'))
 	{
-		printf("´ç½ÅÀÇ Á¡¼ö´Â 100~90Á¡!\n\n");
+		printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 100~90ì !\n\n");
 	}
 	else if (ch[0] == 'B' && (ch[1] == '+' || ch[1] == '0' || ch[1] == '-'))
 	{
-		printf("´ç½ÅÀÇ Á¡¼ö´Â 89~80Á¡~\n\n");
+		printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 89~80ì ~\n\n");
 	}
 	else if (ch[0] == 'C' && (ch[1] == '+' || ch[1] == '0' || ch[1] == '-'))
 	{
-		printf("´ç½ÅÀÇ Á¡¼ö´Â 79~70Á¡.\n\n");
+		printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 79~70ì .\n\n");
 	}
 	else if (ch[0] == 'D' && (ch[1] == '+' || ch[1] == '0' || ch[1] == '-'))
 	{
-		printf("´ç½ÅÀÇ Á¡¼ö´Â Á¡¼ö´Â 69~60Á¡;\n\n");
+		printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” ì ìˆ˜ëŠ” 69~60ì ;\n\n");
 	}
 	else if (ch[0] == 'F')
 	{
-		printf("..Àç¼ö°­À» ÇÏ¼Å¾ß°Ú¾î¿ä ¤Ğ_¤Ğ...\n\n");
+		printf("..ì¬ìˆ˜ê°•ì„ í•˜ì…”ì•¼ê² ì–´ìš” ã… _ã… ...\n\n");
 	}
 	else
 	{
-		printf("Á¤È®ÇÑ ÇĞÁ¡À» ÀÔ·ÂÇØÁÖ¼¼¿ä.\n\n");
+		printf("ì •í™•í•œ í•™ì ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.\n\n");
 	}
 
-	printf("Á¡¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.(100 ~ 0) : ");
+	printf("ì ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.(100 ~ 0) : ");
 	scanf("%d", &score);
 
 	if (score <= 100 && score >= 97)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº A+ !!!\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ A+ !!!\n\n");
 	}
 	else if (score <= 96 && score >= 93)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº A0 !!\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ A0 !!\n\n");
 	}
 	else if (score <= 92 && score >= 90)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº A- !\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ A- !\n\n");
 	}
 	else if (score <= 89 && score >= 87)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº B+ ~~~\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ B+ ~~~\n\n");
 	}
 	else if (score <= 86 && score >= 83)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº B0 ~~\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ B0 ~~\n\n");
 	}
 	else if (score <= 82 && score >= 80)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº B- ~\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ B- ~\n\n");
 	}
 	else if (score <= 79 && score >= 77)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº C+ .\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ C+ .\n\n");
 	}
 	else if (score <= 76 && score >= 73)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº C0 ..\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ C0 ..\n\n");
 	}
 	else if (score <= 72 && score >= 70)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº C- ...\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ C- ...\n\n");
 	}
 	else if (score <= 69 && score >= 67)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº D+ ;\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ D+ ;\n\n");
 	}
 	else if (score <= 66 && score >= 63)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº D0 ;;\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ D0 ;;\n\n");
 	}
 	else if (score <= 62 && score >= 60)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº D- ;;;\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ D- ;;;\n\n");
 	}
 	else if (score <= 59)
 	{
-		printf("´ç½ÅÀÇ ÇĞÁ¡Àº F ¤Ğ_¤Ğ\n\n");
+		printf("ë‹¹ì‹ ì˜ í•™ì ì€ F ã… _ã… \n\n");
 	}
 	else
 	{
-		printf("Á¤È®ÇÑ Á¡¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.\n\n");
+		printf("ì •í™•í•œ ì ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.\n\n");
 	}
 
 	return 0;
