@@ -3,14 +3,14 @@
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
-#include <stdio.h> // Çì´õ ÆÄÀÏ Æ÷ÇÔ
+#include <stdio.h> // í—¤ë” íŒŒì¼ í¬í•¨
 
-int main(void) // ÇÔ¼öÀÇ ½ÃÀÛ
+int main(void) // í•¨ìˆ˜ì˜ ì‹œì‘
 {
 	int i = 1;
 	int j;
 
-	printf("Àü°³ÇÒ ¼ıÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ì „ê°œí•  ìˆ«ìë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%d", &j);
 
 loop:
