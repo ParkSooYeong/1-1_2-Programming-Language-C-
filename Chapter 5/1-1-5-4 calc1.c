@@ -3,14 +3,14 @@
 
 #define _CRT_SECURE_NO_WARNINGS // Warning C4996 Error
 
-#include <stdio.h> // Çì´õ ÆÄÀÏ Æ÷ÇÔ
+#include <stdio.h> // í—¤ë” íŒŒì¼ í¬í•¨
 
-int main(void) // ÇÔ¼öÀÇ ½ÃÀÛ
+int main(void) // í•¨ìˆ˜ì˜ ì‹œì‘
 {
 	char op;
 	int x, y;
 
-	printf("¼ö½ÄÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ìˆ˜ì‹ì„ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%d %c %d", &x, &op, &y);
 
 	if (op == '+')
@@ -35,7 +35,7 @@ int main(void) // ÇÔ¼öÀÇ ½ÃÀÛ
 	}
 	else
 	{
-		printf("Áö¿øµÇÁö ¾Ê´Â ¿¬»êÀÚÀÔ´Ï´Ù. \n\n");
+		printf("ì§€ì›ë˜ì§€ ì•ŠëŠ” ì—°ì‚°ìì…ë‹ˆë‹¤. \n\n");
 	}
 
 	return 0;
