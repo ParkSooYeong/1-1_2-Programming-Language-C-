@@ -9,18 +9,18 @@ int main(void)
 {
 	int i = 0;
 
-	printf("¿øÇÏ½Ã´Â ¸Ş´º¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä.\n\n");
+	printf("ì›í•˜ì‹œëŠ” ë©”ë‰´ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”.\n\n");
 
 	do
 	{
 		printf("1. File Open\n");
 		printf("2. File Close\n\n");
-		printf("¸Ş´º ¼±ÅÃ : ");
+		printf("ë©”ë‰´ ì„ íƒ : ");
 		scanf("%d", &i);
 	}
 	while(i < 1 || i > 2);
 
-	printf("\n¼±ÅÃ ¸Ş´º : %d\n\n", i);
+	printf("\nì„ íƒ ë©”ë‰´ : %d\n\n", i);
 
 	return 0;
 }
