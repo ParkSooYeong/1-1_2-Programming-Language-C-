@@ -9,10 +9,10 @@ int main(void)
 {
 	int a, b;
 
-	printf("2°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("2ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%d %d", &a, &b);
 
-	printf("Å« ¼ö´Â %dÀÔ´Ï´Ù.\n", get_max(a, b));
+	printf("í° ìˆ˜ëŠ” %dì…ë‹ˆë‹¤.\n", get_max(a, b));
 
 	return 0;
 }
