@@ -10,7 +10,7 @@ int main(void)
 	int x, y;
 	int h;
 
-	printf("¼¼·Î ±æÀÌ¸¦ ¼³Á¤ÇØÁÖ¼¼¿ä. : ");
+	printf("æŠ€è‚º è¾¨æç”« æ±²æ²¥ç§¦æ—æŠ€å¤¸. : ");
 	scanf("%d", &h);
 
 	for (y = 1; y <= h; y++)
