@@ -29,8 +29,8 @@ int main(void)
 	printf("log10() = %f\n", log10(100.0));
 	printf("exp() = %f\n\n", exp(10.0));
 
-	// ÀÏ¹ÝÀûÀ¸·Î ³­¼ö ¹ß»ý±âÀÇ ½Ãµå(seed)¸¦ ÇöÀç ½Ã°£À¸·Î ¼³Á¤ÇÑ´Ù.
-	// ÇöÀç ½Ã°£Àº ¼öÇàÇÒ ¶§¸¶´Ù ´Þ¶óÁö±â ¶§¹®ÀÌ´Ù.
+	// ì¼ë°˜ì ìœ¼ë¡œ ë‚œìˆ˜ ë°œìƒê¸°ì˜ ì‹œë“œ(seed)ë¥¼ í˜„ìž¬ ì‹œê°„ìœ¼ë¡œ ì„¤ì •í•œë‹¤.
+	// í˜„ìž¬ ì‹œê°„ì€ ìˆ˜í–‰í•  ë•Œë§ˆë‹¤ ë‹¬ë¼ì§€ê¸° ë•Œë¬¸ì´ë‹¤.
 	srand((unsigned)time(NULL));
 	get_random(10);
 
