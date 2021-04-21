@@ -5,25 +5,25 @@
 
 #include <stdio.h>
 
-int compute_sum(int n, int m); // ÇÔ¼ö ¿øÇü
+int compute_sum(int n, int m); // í•¨ìˆ˜ ì›í˜•
 
 int main(void)
 {
 	int n, m, sum;
 
-	printf("½ÃÀÛ Á¤¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ì‹œì‘ ì •ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%d", &n);
-	printf("¸¶Áö¸· Á¤¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ë§ˆì§€ë§‰ ì •ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%d", &m);
 
-	sum = compute_sum(n, m); // ÇÔ¼ö »ç¿ë
+	sum = compute_sum(n, m); // í•¨ìˆ˜ ì‚¬ìš©
 
-	printf("\n%dºÎÅÍ %d±îÁöÀÇ ÇÕÀº %dÀÔ´Ï´Ù.\n\n", n, m, sum);
+	printf("\n%dë¶€í„° %dê¹Œì§€ì˜ í•©ì€ %dì…ë‹ˆë‹¤.\n\n", n, m, sum);
 
 	return 0;
 }
 
-int compute_sum(int n, int m) // ÇÔ¼ö Á¤ÀÇ
+int compute_sum(int n, int m) // í•¨ìˆ˜ ì •ì˜
 {
 	int i;
 	int result = 0;
