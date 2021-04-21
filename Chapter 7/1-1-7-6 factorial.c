@@ -12,7 +12,7 @@ int main(void)
 	int x = 0;
 	long f;
 
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ÃÂ¤Â¼Ã¶Â¸Â¦ Ã€Ã”Â·Ã‚Ã‡Ã˜ÃÃ–Â¼Â¼Â¿Ã¤. : ");
 	scanf("%d", &x);
 
 	f = factorial(x);
