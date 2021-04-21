@@ -30,7 +30,7 @@ int get_integer(void)
 {
 	int n;
 
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ÃÂ¤Â¼Ã¶Â¸Â¦ Ã€Ã”Â·Ã‚Ã‡Ã˜ÃÃ–Â¼Â¼Â¿Ã¤. : ");
 	scanf("%d", &n);
 
 	return n;
