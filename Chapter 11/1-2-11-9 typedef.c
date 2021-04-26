@@ -21,7 +21,7 @@ int main(void)
 
 	result = translate(p, delta);
 
-	printf("���ο� ��ǥ : (%d , %d)\n", result.x, result.y);
+	printf("»õ·Î¿î ÁÂÇ¥ : (%d , %d)\n", result.x, result.y);
 
 	return 0;
 }
