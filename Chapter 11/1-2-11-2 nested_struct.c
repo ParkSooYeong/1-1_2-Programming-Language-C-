@@ -22,9 +22,9 @@ int main(void)
 	struct rect r;
 	int w, h, area, peri;
 
-	printf("¿ŞÂÊ »ó´ÜÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.(x y) : ");
+	printf("ì™¼ìª½ ìƒë‹¨ì˜ ì¢Œí‘œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.(x y) : ");
 	scanf("%d %d", &r.p1.x, &r.p1.y);
-	printf("¿À¸¥ÂÊ »ó´ÜÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.(x y) : ");
+	printf("ì˜¤ë¥¸ìª½ ìƒë‹¨ì˜ ì¢Œí‘œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.(x y) : ");
 	scanf("%d %d", &r.p2.x, &r.p2.y);
 
 	w = r.p2.x - r.p1.x;
@@ -33,7 +33,7 @@ int main(void)
 	area = w * h;
 	peri = 2 * w + 2 * h;
 
-	printf("¸éÀû = %d , µÑ·¹ = %d\n", area, peri);
+	printf("ë©´ì  = %d , ë‘˜ë ˆ = %d\n", area, peri);
 
 	return 0;
 }
