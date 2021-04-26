@@ -21,7 +21,7 @@ int main(void)
 
 	sum = get_vector_sum(a, b);
 
-	printf("º¤ÅÍÀÇ ÇÕ : (%f , %f)\n", sum.x, sum.y);
+	printf("ÂºÂ¤Ã…ÃÃ€Ã‡ Ã‡Ã• : (%f , %f)\n", sum.x, sum.y);
 
 	return 0;
 }
