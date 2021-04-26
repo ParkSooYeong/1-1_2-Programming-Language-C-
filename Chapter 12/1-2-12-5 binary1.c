@@ -15,7 +15,7 @@ int main(void)
 
 	if (fp == NULL)
 	{
-		fprintf(stderr, "binary.bin ÆÄÀÏÀ» ¿­ ¼ö ¾ø½À´Ï´Ù.");
+		fprintf(stderr, "binary.bin Ã†Ã„Ã€ÃÃ€Â» Â¿Â­ Â¼Ã¶ Â¾Ã¸Â½Ã€Â´ÃÂ´Ã™.");
 		
 		return 1;
 	}
