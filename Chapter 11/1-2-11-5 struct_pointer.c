@@ -27,10 +27,10 @@ int main(void)
 
 	s.dob = &d;
 
-	printf("»ı³â¿ùÀÏ : %d³â %d¿ù %dÀÏ\n", s.dob->year, s.dob->month, s.dob->day);
-	printf("ÇĞ¹ø : %d\n", s.number);
-	printf("ÀÌ¸§ : %s\n", s.name);
-	printf("ÇĞÁ¡ : %f\n", s.grade);
+	printf("ìƒë…„ì›”ì¼ : %dë…„ %dì›” %dì¼\n", s.dob->year, s.dob->month, s.dob->day);
+	printf("í•™ë²ˆ : %d\n", s.number);
+	printf("ì´ë¦„ : %s\n", s.name);
+	printf("í•™ì  : %f\n", s.grade);
 
 	return 0;
 }
