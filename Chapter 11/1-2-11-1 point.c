@@ -18,10 +18,10 @@ int main(void)
 	int xdiff, ydiff;
 	double dist;
 
-	printf("Ã¹¹øÂ° Á¡ÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.(x y) :");
+	printf("ì²«ë²ˆì§¸ ì ì˜ ì¢Œí‘œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.(x y) :");
 	scanf("%d %d", &p1.x, &p1.y);
 
-	printf("µÎ¹øÂ° Á¡ÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.(x y) :");
+	printf("ë‘ë²ˆì§¸ ì ì˜ ì¢Œí‘œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.(x y) :");
 	scanf("%d %d", &p2.x, &p2.y);
 
 	xdiff = p1.x - p2.x;
@@ -29,7 +29,7 @@ int main(void)
 
 	dist = sqrt(xdiff * xdiff + ydiff * ydiff);
 
-	printf("µÎ Á¡ »çÀÌÀÇ °Å¸®´Â %fÀÔ´Ï´Ù.\n", dist);
+	printf("ë‘ ì  ì‚¬ì´ì˜ ê±°ë¦¬ëŠ” %fì…ë‹ˆë‹¤.\n", dist);
 
 	return 0;
 }
