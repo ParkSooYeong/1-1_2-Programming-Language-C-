@@ -21,11 +21,11 @@ int main(void)
 
 	for (i = 0; i < SIZE; i++)
 	{
-		printf("ÇÐ¹øÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+		printf("í•™ë²ˆì„ ìž…ë ¥í•´ì£¼ì„¸ìš”. : ");
 		scanf("%d", &list[i].number);
-		printf("ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+		printf("ì´ë¦„ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”. : ");
 		scanf("%s", &list[i].name);
-		printf("ÇÐÁ¡À» ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+		printf("í•™ì ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”. : ");
 		scanf("%lf", &list[i].grade);
 	}
 
@@ -33,7 +33,7 @@ int main(void)
 
 	for (i = 0; i < SIZE; i++)
 	{
-		printf("ÇÐ¹ø : %d , ÀÌ¸§ : %s , ÇÐÁ¡ : %f\n", list[i].number, list[i].name, list[i].grade);
+		printf("í•™ë²ˆ : %d , ì´ë¦„ : %s , í•™ì  : %f\n", list[i].number, list[i].name, list[i].grade);
 	}
 
 	return 0;
