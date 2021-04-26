@@ -14,14 +14,14 @@ struct student
 
 int main(void)
 {
-	struct student s = { 20170910,"¹Ú¼ö¿µ",4.3 };
+	struct student s = { 20170910,"ë°•ìˆ˜ì˜",4.3 };
 	struct student *p;
 
 	p = &s;
 
-	printf("ÇĞ¹ø : %d , ÀÌ¸§ : %s , ÇĞÁ¡ : %f\n", s.number, s.name, s.grade);
-	printf("ÇĞ¹ø : %d , ÀÌ¸§ : %s , ÇĞÁ¡ : %f\n", (*p).number, (*p).name, (*p).grade);
-	printf("ÇĞ¹ø : %d , ÀÌ¸§ : %s , ÇĞÁ¡ : %f\n", p->number, p->name, p->grade);
+	printf("í•™ë²ˆ : %d , ì´ë¦„ : %s , í•™ì  : %f\n", s.number, s.name, s.grade);
+	printf("í•™ë²ˆ : %d , ì´ë¦„ : %s , í•™ì  : %f\n", (*p).number, (*p).name, (*p).grade);
+	printf("í•™ë²ˆ : %d , ì´ë¦„ : %s , í•™ì  : %f\n", p->number, p->name, p->grade);
 
 	return 0;
 }
