@@ -14,15 +14,15 @@ int main(void)
 	char word[256];
 	int line_num = 0;
 
-	printf("ÀÔ·Â ÆÄÀÏ ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("ì…ë ¥ íŒŒì¼ ì´ë¦„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%s", fname);
-	printf("Å½»öÇÒ ´Ü¾î¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("íƒìƒ‰í•  ë‹¨ì–´ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%s", word);
 
-	// ÆÄÀÏÀ» ÀĞ±â ¸ğµå·Î ¿¬´Ù.
+	// íŒŒì¼ì„ ì½ê¸° ëª¨ë“œë¡œ ì—°ë‹¤.
 	if ((fp = fopen(fname, "r")) == NULL)
 	{
-		fprintf(stderr, "ÆÄÀÏ %sÀ» ¿­ ¼ö ¾ø½À´Ï´Ù.\n", fname);
+		fprintf(stderr, "íŒŒì¼ %sì„ ì—´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n", fname);
 		exit(1);
 	}
 
@@ -32,7 +32,7 @@ int main(void)
 
 		if (strstr(buffer, word))
 		{
-			printf("%s : %d ´Ü¾î %sÀÌ ¹ß°ßµÇ¾ú½À´Ï´Ù.\n", fname, line_num, word);
+			printf("%s : %d ë‹¨ì–´ %sì´ ë°œê²¬ë˜ì—ˆìŠµë‹ˆë‹¤.\n", fname, line_num, word);
 		}
 	}
 
