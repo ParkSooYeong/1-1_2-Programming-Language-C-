@@ -13,21 +13,21 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		printf("¸í·É¾î ¶óÀÎ¿¡¼­ %d¹øÂ° ¹®ÀÚ¿­ = %s\n", i, argv[i]);
+		printf("ëª…ë ¹ì–´ ë¼ì¸ì—ì„œ %dë²ˆì§¸ ë¬¸ìžì—´ = %s\n", i, argv[i]);
 	}
 
 	printf("\n");
 
 	if (argc != 2)
 	{
-		printf("»ç¿ë ¹æ¹ý : milekm °Å¸®\n");
+		printf("ì‚¬ìš© ë°©ë²• : milekm ê±°ë¦¬\n");
 
 		return 1;
 	}
 
 	mile = atof(argv[1]);
 	km = 1.609 * mile;
-	printf("ÀÔ·ÂµÈ °Å¸® = %f km\n", km);
+	printf("ìž…ë ¥ëœ ê±°ë¦¬ = %f km\n", km);
 
 	return 0;
 }
