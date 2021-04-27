@@ -10,9 +10,9 @@ int main(void)
 {
 	int x, y;
 
-	printf("xÀÇ °ªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("xì˜ ê°’ì„ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%d", &x);
-	printf("yÀÇ °ªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+	printf("yì˜ ê°’ì„ ì…ë ¥í•´ì£¼ì„¸ìš”. : ");
 	scanf("%d", &y);
 	printf("%d ^ %d = %f\n", x, y, power(x, y));
 
