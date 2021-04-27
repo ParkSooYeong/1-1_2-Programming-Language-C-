@@ -15,10 +15,10 @@ int main(void)
 
 	printf("%d\n", SQUARE(x));
 	printf("%d\n", SQUARE(3));
-	printf("%f\n", SQUARE(1.2)); // ½Ç¼ö¿¡µµ Àû¿ë °¡´É
+	printf("%f\n", SQUARE(1.2)); // ì‹¤ìˆ˜ì—ë„ ì ìš© ê°€ëŠ¥
 	printf("%d\n", SQUARE(x + 3));
 	printf("%d\n", 100 / SQUARE(x));
-	printf("%d\n", SQUARE(++x)); // ³í¸® ¿À·ù
+	printf("%d\n", SQUARE(++x)); // ë…¼ë¦¬ ì˜¤ë¥˜
 
 	printf("\n");
 
