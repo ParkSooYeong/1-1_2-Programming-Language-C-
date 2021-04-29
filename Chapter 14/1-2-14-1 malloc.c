@@ -15,51 +15,51 @@ struct Book
 
 int main(void)
 {
-	int *pi; // µ¿Àû ¸Ş¸ğ¸®¸¦ °¡¸®Å°´Â Æ÷ÀÎÅÍ
+	int *pi; // ë™ì  ë©”ëª¨ë¦¬ë¥¼ ê°€ë¦¬í‚¤ëŠ” í¬ì¸í„°
 	char *pc = NULL;
 	char *pe = NULL;
 	int i = 0;
 	int *pa;
 	struct Book *p;
 
-	pi = (int *)malloc(sizeof(int)); // µ¿Àû ¸Ş¸ğ¸® ÇÒ´ç
+	pi = (int *)malloc(sizeof(int)); // ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹
 	pc = (char *)malloc(sizeof(char));
 	pe = (char *)malloc(100 * sizeof(char));
 	pa = (int *)malloc(5 * sizeof(int));
 	p = (struct Book *)malloc(2 * sizeof(struct Book));
 
-	if (pi == NULL) // ¹İÈ¯°ªÀÌ NULLÀÎÁö °Ë»ç
+	if (pi == NULL) // ë°˜í™˜ê°’ì´ NULLì¸ì§€ ê²€ì‚¬
 	{
-		printf("µ¿Àû ¸Ş¸ğ¸® ÇÒ´ç ¿À·ù\n");
+		printf("ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹ ì˜¤ë¥˜\n");
 		exit(1);
 	}
 
 	if (pc == NULL)
 	{
-		printf("µ¿Àû ¸Ş¸ğ¸® ÇÒ´ç ¿À·ù\n");
+		printf("ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹ ì˜¤ë¥˜\n");
 		exit(1);
 	}
 
 	if (pe == NULL)
 	{
-		printf("µ¿Àû ¸Ş¸ğ¸® ÇÒ´ç ¿À·ù\n");
+		printf("ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹ ì˜¤ë¥˜\n");
 		exit(1);
 	}
 
 	if (pa == NULL)
 	{
-		printf("µ¿Àû ¸Ş¸ğ¸® ÇÒ´ç ¿À·ù\n");
+		printf("ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹ ì˜¤ë¥˜\n");
 		exit(1);
 	}
 
 	if (p == NULL)
 	{
-		printf("µ¿Àû ¸Ş¸ğ¸® ÇÒ´ç ¿À·ù\n");
+		printf("ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹ ì˜¤ë¥˜\n");
 		exit(1);
 	}
 
-	*pi = 100; // µ¿Àû ¸Ş¸ğ¸® »ç¿ë
-	printf("*pi = %d\n", *pi); // µ¿Àû ¸Ş¸ğ¸® ¹İ³³
+	*pi = 100; // ë™ì  ë©”ëª¨ë¦¬ ì‚¬ìš©
+	printf("*pi = %d\n", *pi); // ë™ì  ë©”ëª¨ë¦¬ ë°˜ë‚©
 
 	printf("\n");
 
@@ -71,10 +71,10 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		*(pe + i) = 'a' + i; // ¾ËÆÄºª ¼Ò¹®ÀÚ¸¦ ¼ø¼­´ë·Î ´ëÀÔ
+		*(pe + i) = 'a' + i; // ì•ŒíŒŒë²³ ì†Œë¬¸ìë¥¼ ìˆœì„œëŒ€ë¡œ ëŒ€ì…
 	}
 
-	*(pe + i) = 0; // NULL ¹®ÀÚ Ãß°¡
+	*(pe + i) = 0; // NULL ë¬¸ì ì¶”ê°€
 	printf("*pe = %s\n", pe);
 	free(pe);
 
