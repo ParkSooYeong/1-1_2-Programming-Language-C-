@@ -1,8 +1,6 @@
 /* SKU CoE ITE - ParkSooYoung */
 /* Grade 1 , Semester 1 , Practice 3 : 100 by standard */
 
-#define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
 
 int main(void)
