@@ -1,8 +1,6 @@
 /* SKU CoE ITE - ParkSooYoung */
 /* Grade 1 , Semester 1 , Report 4 : Small → Big */
 
-#define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h> // 헤더 파일 포함
 
 void change() // 함수 지정, 함수 이름은 'change'
