@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 1 , Report 5 : Use Function */
+/* Grade 1 , Semester 1 , Report 5 : Use Function 1 */
 
 #include <stdio.h> // 헤더 파일 포함
 
