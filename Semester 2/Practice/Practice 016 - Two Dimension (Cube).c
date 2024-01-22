@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 2 , Practice 015 : Two Dimension (Cube) */
+/* Grade 1 , Semester 2 , Practice 016 : Two Dimension (Cube) */
 
 #include <stdio.h> // 헤더 파일 포함
 
