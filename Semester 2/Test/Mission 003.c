@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 2 , Mission 3 */
+/* Grade 1 , Semester 2 , Mission 003 */
 
 #include <stdio.h> // 헤더 파일 포함
 
