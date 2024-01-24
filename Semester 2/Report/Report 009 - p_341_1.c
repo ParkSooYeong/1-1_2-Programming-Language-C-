@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 2 , Report 009 : p_344_6 */
+/* Grade 1 , Semester 2 , Report 009 : p_341_1 */
 
 #include<stdio.h> // 헤더 파일 포함
 #include<stdlib.h> // 헤더 파일 포함
