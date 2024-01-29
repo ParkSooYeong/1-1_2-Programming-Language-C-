@@ -1,5 +1,5 @@
 /* SKU CoE ITE - ParkSooYoung */
-/* Grade 1 , Semester 2 , Practice 049 : File_Open */
+/* Grade 1 , Semester 2 , Practice 050 : File_Open */
 
 #include <stdio.h> // 헤더 파일 포함
 
